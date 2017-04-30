@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CountryLookupItem">
+        <attr name="countryName" format="reference" />
+        <attr name="countryFlag" format="reference"/>
+        <attr name="countryCode" format="string"/>
+    </declare-styleable>
+
+</resources>

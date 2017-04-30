@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/flag_image_view"
+        android:layout_width="@dimen/country_item_flag_width"
+        android:layout_height="@dimen/country_item_flag_height"
+        android:scaleType="fitXY"
+        android:gravity="center_vertical"
+        android:layout_margin="@dimen/country_item_margin"/>
+
+    <TextView
+        android:id="@+id/country_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_margin="@dimen/country_item_margin"
+        android:textStyle="bold"
+        android:textSize="@dimen/country_item_text_size"/>
+
+</LinearLayout>
